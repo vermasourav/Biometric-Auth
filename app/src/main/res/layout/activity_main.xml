@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by: V3RMA SOURAV on 30/11/23, 11:37 pm
+  ~ Copyright © 2023 All rights reserved
+  ~ Class name : activity_main.xml
+  ~ Last modified:  18/11/23, 3:28 pm
+  ~ Location: Bangalore, India
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+      <TextView
+          android:id="@+id/logs"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:textColor="@color/dialog_status"
+          app:layout_constraintBottom_toTopOf="@+id/btn_authenticate"
+          app:layout_constraintTop_toTopOf="parent" />
+      <Button
+        android:id="@+id/btn_authenticate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/btn_authenticate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

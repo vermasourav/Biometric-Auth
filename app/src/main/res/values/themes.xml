@@ -1,0 +1,17 @@
+<!--
+  ~ Created by: V3RMA SOURAV on 30/11/23, 11:37 pm
+  ~ Copyright © 2023 All rights reserved
+  ~ Class name : themes.xml
+  ~ Last modified:  21/10/23, 1:30 pm
+  ~ Location: Bangalore, India
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BiometricSample" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BiometricSample" parent="Base.Theme.BiometricSample" />
+</resources>

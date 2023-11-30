@@ -1,0 +1,18 @@
+<!--
+  ~ Created by: V3RMA SOURAV on 30/11/23, 11:37 pm
+  ~ Copyright © 2023 All rights reserved
+  ~ Class name : AndroidManifest.xml
+  ~ Last modified:  21/10/23, 1:18 pm
+  ~ Location: Bangalore, India
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.verma.android.biometric">
+
+    <!-- Step 1: Add the following permission to the app  -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <!-- Step 2: This permission is depreciated in Android P  -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+</manifest>

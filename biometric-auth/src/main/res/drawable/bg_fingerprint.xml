@@ -1,0 +1,15 @@
+<!--
+  ~ Created by: V3RMA SOURAV on 30/11/23, 11:37 pm
+  ~ Copyright © 2023 All rights reserved
+  ~ Class name : bg_fingerprint.xml
+  ~ Last modified:  21/10/23, 1:25 pm
+  ~ Location: Bangalore, India
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/bg_fingerprint" />
+    <size
+        android:width="@dimen/biometric_bg_size"
+        android:height="@dimen/biometric_bg_size" />
+</shape>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by: V3RMA SOURAV on 30/11/23, 11:37 pm
+  ~ Copyright © 2023 All rights reserved
+  ~ Class name : strings.xml
+  ~ Last modified:  18/11/23, 3:04 pm
+  ~ Location: Bangalore, India
+  -->
+
+<resources>
+
+    <string name="biometric_failed">Fingerprint not recognized</string>
+    <string name="error_dialog_title">Biometric Dialog title cannot be null</string>
+    <string name="error_dialog_sub_title">Biometric Dialog subtitle cannot be null</string>
+    <string name="error_dialog_description">Biometric Dialog description cannot be null</string>
+    <string name="error_dialog_negative_button">Biometric Dialog negative button text cannot be null</string>
+
+</resources>
