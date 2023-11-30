@@ -1,6 +1,6 @@
-# DashBoard
+# Biometric-Auth
 ---
-DashBoard
+Biometric-Auth
 ---
 Add it in your root build.gradle at the end of repositories:
 
@@ -16,6 +16,3 @@ Step 2. Add the dependency
 	        implementation 'com.github.vermasourav:Biometric-Auth:1.0.0'
 	}
 
----
-implementation 'com.github.vermasourav:DashBoard:1.0.6'
----
